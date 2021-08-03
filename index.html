@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Prototyp File System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A Prototyp prototype for uploading and saving files of type jpg, xml, pdf">
+        <meta name="author" content="Johan">
+        <link rel="stylesheet" href='./style.css' type="text/css"/>
+    </head>
+    <body>
+
+        <H1>File Manager Deluxe</H1>
+        <Section id="container">
+            <table id="table">
+                <tr>
+                  <th></th> <!--Icon-->
+                  <th>Filnamn</th>
+                  <th>Beskrivning</th>
+                  <th>uppladdad av</th>
+                  <th>Datum</th>
+                </tr>
+            </table>
+        </Section>
+        
+        <br> 
+        <div >Upload File</div>
+        <form id="upload-form">
+            <input id="uploaded-by" type="text" name="uploaded-by" placeholder="Uppladdad av..">
+            <input id="description" type="text" name="description" placeholder="Beskrivning">
+            <input type="file">
+            <input id="upload-btn" type="submit" value="Ladda upp fil">
+        </form>
+
+    </body>
+    <script src="script.js"></script>
+</html>

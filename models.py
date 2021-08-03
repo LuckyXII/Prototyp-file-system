@@ -7,6 +7,7 @@ class File(Model):
     description = fields.TextField(null=False)
     uploaded_by = fields.TextField(null=False)
     uploaded_at = fields.DateField(null=False, default='1992-01-01')
+    file = fields.BinaryField(null=False)
     
     class Meta:
             table='Files'

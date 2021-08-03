@@ -1,0 +1,19 @@
+#upload-btn{
+    display: block;
+    color: blue;
+}
+
+#container{
+    display: block;
+    border: 1px black;
+}
+
+#table{
+    display: block;
+    border: 1px rebeccapurple;
+}
+
+#table th{
+    display: inline-block;
+    border: 1px red;
+}
